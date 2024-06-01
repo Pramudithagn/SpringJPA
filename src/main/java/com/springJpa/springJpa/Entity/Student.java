@@ -38,8 +38,12 @@ public class Student {
     private String email;
     private String firstName;
     private String lastName;
-    private String guardianName;
-    private String guardianMobile;
-    private String guardianEmail;
+
+//    private String guardianName;
+//    private String guardianMobile;
+//    private String guardianEmail;
+
+    @Embedded
+    private Guardian guardian;
 
 }
