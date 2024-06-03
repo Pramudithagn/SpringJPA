@@ -29,14 +29,14 @@ public class Teacher {
     private String firstName;
     private String lastName;
 
-    @OneToMany(
-            cascade = CascadeType.ALL
-    )
-    @JoinColumn(
-            name = "teacher_id",
-            referencedColumnName = "teacherId"
-//            name = "course_id",
-//            referencedColumnName = "courseId"
-    )
-    private List<Course> courses;
+//    @OneToMany(
+//            cascade = CascadeType.ALL
+//    )
+//    @JoinColumn(
+//            name = "teacher_id",
+//            referencedColumnName = "teacherId"
+////            name = "course_id",
+////            referencedColumnName = "courseId"
+//    )
+//    private List<Course> courses;
 }
